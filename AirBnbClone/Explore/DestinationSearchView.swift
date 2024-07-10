@@ -50,6 +50,8 @@ struct DestinationSearchView: View {
             }
             .padding()
             
+            
+            
             VStack(alignment: .leading) {
                 if selectedOption == .location {
                     Text("Where to?")
