@@ -12,6 +12,10 @@ struct ExploreView: View {
     @State private var isShowDestinationView = false
     var body: some View {
         
+        
+        
+        
+        
         if isShowDestinationView {
             DestinationSearchView(show: $isShowDestinationView)
         } else {
